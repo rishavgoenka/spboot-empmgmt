@@ -1,0 +1,164 @@
+!SESSION 2025-02-19 22:17:23.443 -----------------------------------------------
+eclipse.buildId=4.34.0.202502032007
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/rishavgoenka/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/rishavgoenka/.eclipse_keyring -data /Users/rishavgoenka/VS/College/FSP/Java Full Stack/EmployeeManagementSystem
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-19 22:17:25.345
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-19 22:17:26.593
+!MESSAGE Logback config file: /Users/rishavgoenka/VS/College/FSP/Java Full Stack/EmployeeManagementSystem/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-02-19 22:17:26.748
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-19 22:17:26.748
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-02-19 22:17:27.319
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-19 22:17:27.319
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-02-19 22:17:29.982
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 22:17:51.079
+!MESSAGE Classpath changed for project: EmployeeInformationSystem
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 22:17:53.008
+!MESSAGE Classpath changed for project: EmployeeInformationSystem
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 22:17:53.010
+!MESSAGE Boot project ADDED: EmployeeInformationSystem
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 22:17:53.011
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 22:17:53.025
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 22:17:53.030
+!MESSAGE Classpath changed for project: EmployeeInformationSystem
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-19 22:17:53.034
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.6.v20250130-0529/jre/bin/java
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=/Users/rishavgoenka/VS/College/FSP/Java Full Stack/EmployeeManagementSystem/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1739983673034
+-Dlanguageserver.hover-timeout=225
+-jar
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.60.0.202502031607/servers/spring-boot-language-server/spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-19 22:17:53.034
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-19 22:17:53.039
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 52194
+
+!ENTRY org.eclipse.jface 2 0 2025-02-19 22:22:19.162
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-02-19 22:22:19.162
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2025-02-20 11:15:03.658 -----------------------------------------------
+eclipse.buildId=4.34.0.202502032007
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/rishavgoenka/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/rishavgoenka/.eclipse_keyring -data /Users/rishavgoenka/VS/College/FSP/Java Full Stack/EmployeeManagementSystem
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-20 11:15:05.159
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-20 11:15:06.280
+!MESSAGE Logback config file: /Users/rishavgoenka/VS/College/FSP/Java Full Stack/EmployeeManagementSystem/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-02-20 11:15:06.519
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-20 11:15:06.520
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-02-20 11:15:06.833
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-20 11:15:06.833
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-02-20 11:15:09.024
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 11:15:09.576
+!MESSAGE Boot project ADDED: EmployeeInformationSystem
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 11:15:09.576
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 11:15:09.604
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-20 11:15:09.617
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.6.v20250130-0529/jre/bin/java
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=/Users/rishavgoenka/VS/College/FSP/Java Full Stack/EmployeeManagementSystem/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1740030309616
+-Dlanguageserver.hover-timeout=225
+-jar
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.60.0.202502031607/servers/spring-boot-language-server/spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-20 11:15:09.617
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-20 11:15:09.625
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 57931
+
+!ENTRY org.eclipse.core.jobs 2 2 2025-02-20 11:15:15.884
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.urischeme.AutoRegisterSchemeHandlersJob RUNNING
+	 at java.base/java.io.FileInputStream.readBytes(Native Method)
+	 at java.base/java.io.FileInputStream.read(FileInputStream.java:287)
+	 at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345)
+	 at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	 at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:405)
+	 at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350)
+	 at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393)
+	 at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217)
+	 at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171)
+	 at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188)
+	 at java.base/java.io.BufferedReader.fill(BufferedReader.java:160)
+	 at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370)
+	 at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347)
+	 at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436)
+	 at org.eclipse.urischeme.internal.registration.ProcessExecutor.execute(ProcessExecutor.java:40)
+	 at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.getLsRegisterOutput(RegistrationMacOsX.java:82)
+	 at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.getSchemesInformation(RegistrationMacOsX.java:67)
+	 at org.eclipse.urischeme.AutoRegisterSchemeHandlersJob.run(AutoRegisterSchemeHandlersJob.java:84)
+	 at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
